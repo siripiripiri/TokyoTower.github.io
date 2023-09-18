@@ -19,12 +19,6 @@ renderer.setPixelRatio(window.devicePixelRatio);
 renderer.setSize(window.innerWidth, window.innerHeight);
 camera.position.setZ(0);
 
-<<<<<<< HEAD:.dist/main.js
-=======
-
->>>>>>> 9e4cf2e (umm):main.js
-//making the rings
-
 const geometry = new THREE.TorusGeometry(10,1,24,50)
 const material = new THREE.MeshStandardMaterial( {color: 0xf8b9fa});
 const ring1 = new THREE.Mesh(geometry,material);
