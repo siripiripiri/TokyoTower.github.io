@@ -19,6 +19,10 @@ renderer.setPixelRatio(window.devicePixelRatio);
 renderer.setSize(window.innerWidth, window.innerHeight);
 camera.position.setZ(0);
 
+<<<<<<< HEAD:.dist/main.js
+=======
+
+>>>>>>> 9e4cf2e (umm):main.js
 //making the rings
 
 const geometry = new THREE.TorusGeometry(10,1,24,50)
@@ -117,7 +121,7 @@ mtlLoader.load('heart.mtl', function (materials) {
 });
 }
 
-Array(200).fill().forEach(addHearts)
+Array(420).fill().forEach(addHearts)
 
 //ramen
 function addRamen(){
